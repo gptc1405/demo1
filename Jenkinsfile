@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('clone repo'){
             steps{
-                git url : 'https://github.com/gptc1405/demo1.git' branch : 'main'
+                git url :'https://github.com/gptc1405/demo1.git' , branch : 'main'
             }
 
         }
